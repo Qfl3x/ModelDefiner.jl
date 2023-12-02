@@ -28,7 +28,7 @@ function (m::Model)(global_parameters, return_sys=false)
     params = m.parameters(global_parameters)
     dep_vars = m.dep_vars(global_parameters)
     equations = m.equations(global_parameters)
-    bcs = m.equations(global_parameters)
+    bcs = m.bcs(global_parameters)
     domain = m.domain(global_parameters)
     discretizer = m.discretizer(global_parameters)
 
