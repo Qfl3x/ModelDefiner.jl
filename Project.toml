@@ -3,6 +3,11 @@ uuid = "b7b86668-839c-4d95-80f4-5c5068c32ec5"
 authors = ["qfl3x <qfl3x@protonmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
+
 [compat]
 julia = "1"
 
